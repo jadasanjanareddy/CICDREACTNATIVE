@@ -1,0 +1,5 @@
+# ...
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+cd ./[childFolderName] && npm test
+npx lint-staged
